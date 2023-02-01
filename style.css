@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background: antiquewhite;
+}
+li{
+    font-size:1.25rem;
+}
+#AlanImg{
+    border-radius: 50%;
+    border: 1.25px solid purple;
+    width: 150px;
+    height: 150px;
+}
+h1,h2,li{
+    font-family: 'Old Standard TT', serif;  
+}
+
+p{
+    font-family: 'Old Standard TT', serif;  
+    font-size: large;
+}
+
+.landing{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:3rem;
+    padding-top:6rem;
+}
+.hero-text{
+    max-width:750px;
+    font-size:1.5rem;
+    font-weight: 400;
+}
+.aboutH1 {
+    text-align: center;
+}
+
+#logoschool{
+    width: 300px;
+    height: 300px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+  }
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+nav li{
+    color: white;
+  }
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+
+  nav a:hover {
+    background-color: grey;
+  }
+
+  .hero-section{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:row-reverse;
+    gap:3rem;
+    padding:2rem;
+  }
+
+
+#tabs{
+    width: 250px;
+    height: 250px;
+}
+
+#stimi{
+    width: 250px;
+    height: 200px;
+    background-color: #510002;
+}
+.mainContent{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    gap:3rem;
+    padding-top:6rem;
+
+}
+.interests{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.buttons{
+    display:flex;
+    gap:1rem;
+}
+.qual-link{
+    text-decoration: none;
+    color:white;
+}
+.tech-link{
+    text-decoration:none;
+    color:white;
+}
+button{
+    padding:1rem;
+    background:black;
+    color:white;
+    border-radius: 10px;
+}
+.content-wrapper{
+    padding-top:5rem;
+    padding-bottom:5rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:1.5rem;
+}
+.tech-title{
+    font-size:1.5em;
+    padding-bottom:2rem;
+}
+.tech-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:5rem;
+}
+.tech-item{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:1.25rem;
+    max-width:900px;
+}
+.tech-desc{
+    display:flex;
+    gap:1.5rem;
+    
+    justify-content:center;
+    flex-direction:row-reverse;
+}
+
+.serves-wrapper{
+    display: flex;
+    flex-direction:column;
+}
+
+.proj-wrapper {
+    padding-bottom: 3rem;
+}
+
+.giving-title {
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+}
