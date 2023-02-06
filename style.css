@@ -5,6 +5,7 @@
 }
 body{
     background: antiquewhite;
+    height:100
 }
 li{
     font-size:1.25rem;
@@ -31,10 +32,19 @@ p{
     gap:3rem;
     padding-top:6rem;
 }
+
+.border-landing{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3em;
+    background-color: #510002
+
+}
 .hero-text{
     max-width:750px;
     font-size:1.5rem;
     font-weight: 400;
+    color: white;
 }
 .aboutH1 {
     text-align: center;
@@ -177,4 +187,79 @@ button{
     justify-content: center;
 }
 
+.page-foot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
 
+/* toggle css; */
+.switch {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .switch:hover+div {
+    color: blue;
+  }
+  
+  .switch-input {
+    display: none;
+  }
+  
+  .switch-label {
+    display: block;
+    width: 50px;
+    height: 25px;
+    text-indent: -150%;
+    clip: rect(0 0 0 0);
+    color: transparent;
+    user-select: none;
+  }
+  
+  .switch-label::before,
+  .switch-label::after {
+    content: "";
+    display: block;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  .switch-label::before {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: hsl(230, 22%, 74%);
+    border-radius: 9999em;
+    transition: all 0.25s ease;
+  }
+  
+  .switch-label::after {
+    top: 10%;
+    left: 5%;
+    right: 55%;
+    bottom: 10%;
+    border-radius: 10000px;
+    background: black;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+    transition: all 0.25s ease;
+  }
+  
+  .switch-input:checked+.switch-label::before {
+    /* active color */
+    background: hsl(230, 22%, 74%);
+  }
+  
+  .switch-input:checked+.switch-label:hover::before {
+    background: linear-gradient(to right, hsl(77, 75%, 77%), hsl(146, 68%, 55%));
+  }
+  
+  .switch-input:checked+.switch-label::after {
+    /* active switch position */
+    left: 55%;
+    right: 5%;
+  }
