@@ -1,14 +1,18 @@
-function toggleTheme() {
-    // Obtains an array of all <link>
-    // elements.
-    // Select your element using indexing.
-    var theme = document.getElementsByTagName('link')[0];
-
-    // Change the value of href attribute 
-    // to change the css sheet.
-    if (theme.getAttribute('href') == 'style.css') {
-        theme.setAttribute('href', 'style2.css');
-    } else {
-        theme.setAttribute('href', 'style.css');
-    }
+// Switch between stylesheests on clikc
+let togg = false;
+function switchStyle() {
+    localStorage.setItem("page_stylesheet_name", togg ? './style.css' : './style2.css');
+    loadStyle();
+    togg = !togg;
 }
+
+//default load
+function loadStyle() {
+    page_style = localStorage.getItem("page_stylesheet_name");
+    if (page_style === null) 
+        page_style = "./style.css";
+
+    document.getElementById('theme').setAttribute("href", page_style);
+}
+
+loadStyle();

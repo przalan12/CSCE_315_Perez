@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css"  id="theme">
+    <script src="https://kit.fontawesome.com/1b2255919c.js" crossorigin="anonymous"></script>
     <title>Qualifications</title>
 </head>
 
@@ -15,6 +15,8 @@
                 <li><a href="Qualifications.html">Qualifications</a></li>
                 <li><a href="technical.html">Technical</a></li>
                 <li><a href="Service.html">Service</a></li>
+                <li><a href="AI.html">AI</a></li>
+
             </ul>
         </nav>
     </header>
@@ -22,6 +24,7 @@
     <div class="mainSection">
         <div class="mainContent">
                 <div class="interests">
+                    <img src="./imgs/dev-img.jpg" alt="dev image" id = "dev-img" width="150px">
                     <h2>My Specific Interests in Computer Science</h2>
                     <ul >
                         <li>Software Development</li>
@@ -31,17 +34,35 @@
                 </div>
                 <div class="skills">
                     <h2>Skills:</h2>
-                    <ul>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>C/C++</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
+                    <ul class="prog-lang-list">
+                        <div class="java">
+                            <li>Java</li> 
+                            <i class="fa-brands fa-java fa-4x" id = "qual-logo"></i>
+                        </div>
+                        <div class="python">
+                            <li>Python</li>
+                            <i class="fa-brands fa-python fa-4x" id = "qual-logo"></i>
+                        </div>
+                        <div class="cpp">
+                            <li>C/C++ </li> 
+                            <i class="fa-solid fa-c fa-4x" id = "qual-logo"></i>
+                        </div>
+                        <div class="html">
+                            <li>HTML </li>
+                            <i class="fa-brands fa-html5 fa-4x" id = "qual-logo"></i>
+                        </div>
+                        <div class="css">
+                            <li>CSS </li> 
+                            <i class="fa-brands fa-css3-alt fa-4x" id = "qual-logo"></i>
+                        </div>
+                        <div class="js">
+                            <li>JavaScript </li> 
+                            <i class="fa-brands fa-square-js fa-4x" id = "qual-logo"></i>
+                        </div>
+                        
                     </ul>
                 </div>
             
- 
 
             <div class="buttons">
                 <button><a class="qual-link"href="https://drive.google.com/file/d/1aoNwf7QWjEsIQXZtUrhTT22jspwJkdor/view?usp=sharing">Resume</a></button>
@@ -50,7 +71,10 @@
             
         </div>
     </div>
-
+    <footer class="page-foot">
+        <p class="foot-text">Made by Alan Perez &#9835;</p>
+    </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>

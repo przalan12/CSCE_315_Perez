@@ -8,7 +8,7 @@
 body {
   background-color: #FBAB7E;
   background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-  
+
 }
 
 li {
@@ -16,10 +16,10 @@ li {
 }
 
 #AlanImg {
-  border-radius: 50%;
-  border: 1.25px solid purple;
-  width: 150px;
-  height: 150px;
+  border-radius: 15px;
+  width: 180px;
+  height: 180px;
+  box-shadow: 6px 11px 20px -1px rgba(0, 0, 0, 0.75);
 }
 
 h1,
@@ -38,13 +38,13 @@ p {
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  padding-top: 6rem;
+  padding-top: 3rem;
 }
 
 .border-landing {
   border: 1px solid black;
   border-radius: 10px;
-  padding: 3em;
+  padding: 3em 8rem;
   background-color: #510002
 }
 
@@ -119,7 +119,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  padding-top: 6rem;
+  padding-top: 3rem;
 
 }
 
@@ -187,6 +187,7 @@ button {
   border-radius: 10px;
   background-color: #510002;
   padding: 1.5rem;
+  box-shadow: 8px 12px 13px 2px rgb(0 0 0 / 75%);
 }
 
 .tech-desc {
@@ -204,10 +205,12 @@ button {
 
 .proj-wrapper {
   padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .giving-title {
-  border: 3px solid;
   display: flex;
   justify-content: center;
 }
@@ -246,54 +249,198 @@ button {
 }
 
 
-.social-container{
-  display:flex;
-  align-items:center;
-  justify-content:center;
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-list {
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   list-style: none;
-  gap:1.0rem
 }
 
-.social-list li{
+.social-list li {
   padding: 5px;
-  width:100%;
+  width: 100%;
 }
+
 .social-list li:hover {
   cursor: pointer;
   transform: translateY(-.2em);
 }
 
-.connect-message{
+.connect-message {
   font-weight: bold;
-  margin-right: 1rem;
+  margin-right: .5rem;
+  font-size: 1.25rem;
 }
 
-.tech-item h2{
-  color: white;
-}
-.tech-item p{
+.tech-item h2 {
   color: white;
 }
 
-.tech-button:hover{
+.tech-item p {
+  color: white;
+}
+
+.tech-button:hover {
   cursor: pointer;
   transform: translateY(-.4em);
 }
 
-.about-link{
+.about-link {
   color: orange;
 }
 
-.about-section{
+.about-section {
   border: 3px solid black;
   background-color: #4b1213;
   color: white;
   border-radius: 10px;
   padding: 1rem 3rem;
+}
+
+.prog-lang-list {
+  list-style: none;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.prog-lang-list li {
+  display: inline-block;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.qual-link:hover {
+  cursor: pointer;
+  transform: translateY(-.2em);
+}
+
+.proj-wrapper {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 2rem;
+  margin-bottom: 4rem;
+  background-color: #4b1213;
+  color: white;
+  width: 350px;
+  height: 380px;
+  margin-top: 6rem;
+  box-shadow: 8px 12px 13px 2px rgb(0 0 0 / 75%);
+}
+
+.services-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+
+.my-container {
+  margin: 0;
+  padding: 0;
+  padding-top: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myimg-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.real-wrap {
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  border-radius: 20px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #4b1213;
+  box-shadow: 18px 12px 13px 0px rgb(0 0 0 / 75%);
+
+}
+
+.para-wrap {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.myp {
+  text-align: center;
+  color: white;
+}
+
+#index-icon {
+  font-size: 1.25rem;
+}
+
+.java,
+.python,
+.cpp,
+.html,
+.css,
+.js {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  flex-direction: column-reverse;
+}
+
+.service-title {
+  padding-top: 4rem;
+}
+
+#dev-img {
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 8px 12px 13px 2px rgb(0 0 0 / 75%);
+}
+
+.proj-title {
+  text-align: center;
+}
+
+.border-landing{
+  display: none;
+}
+
+.first-iter {
+  display: none ;
+}
+
+.copy-img{
+  display: none;
+}
+.hide{
+  display: none;
 }

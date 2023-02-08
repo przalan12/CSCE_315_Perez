@@ -1,49 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link id="myStyle" rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" id="theme">
+    <script src="https://kit.fontawesome.com/1b2255919c.js" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
-
     <title>Landing</title>
 </head>
 
 <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="About.html">About Me</a></li>
-                    <li><a href="Qualifications.html">Qualifications</a></li>
-                    <li><a href="technical.html">Technical</a></li>
-                    <li><a href="Service.html">Service</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Qualifications.html">Qualifications</a></li>
+                <li><a href="technical.html">Technical</a></li>
+                <li><a href="Service.html">Service</a></li>
+                <li><a href="AI.html">AI</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="landing">
-        <img src="imgs/Alan.jpg" alt="Alan Perez" id="AlanImg">
-        <div class="border-landing">
-        <p class="hero-text">
-                Welcome to my web page! My name is Alan Perez and I hope you find my content interesting. As an introdcution, I am currently pursuing a Bachelor degree in Computer
+    <div class="landing" class="hide">
+        <img src="imgs/Alan.jpg" alt="Alan Perez" id="AlanImg" class="copy-img">
+        <div class="border-landing" class="hide">
+            <p class="hero-text" class="hide">
+                Welcome to my web page! My name is Alan Perez and I hope you find my content interesting. As an
+                introdcution, I am currently pursuing a Bachelor degree in Computer
                 Science at Texas A&M University.
             </p>
         </div>
+    </div>
 
+    <div class="my-container">
+        <div class="real-wrap">
 
-            <div class="switch">
-                <input onclick="toggleTheme()" id="theme-type" type="checkbox" class="switch-input"/>
-                <label for="theme-type" class="switch-label"></label>
+            <div class="myimg-wrapper">
+                <img src="imgs/Alan.jpg" alt="Alan Perez" id="AlanImg">
+            </div>
+
+            <div class="para-wrap">
+                <p class="myp">
+                    Welcome to my webage! My name is Alan Perez and I hope you find my content interesting. As an
+                    introdcution, I am currently pursuing a Bachelor degree in Computer
+                    Science at Texas A&M University.
+                </p>
+            </div>
+
         </div>
+
+
+
+    </div>
+    <div class="switch">
+        <button type="button" id="btt" onclick="switchStyle()">CHANGE</button>
     </div>
 
-    <div>
-
+    <div class="social-container">
+        <p class="connect-message">Connect with me:</p>
+        <ul class="social-list">
+            <a href="https://github.com/przalan12">
+                <li><i class="fa-brands fa-github fa-3x" id="index-icon"></i>
+            </a></li>
+            <a href="https://www.linkedin.com/in/alanprz/">
+                <li><i class="fa-brands fa-linkedin-in fa-3x" id="index-icon"></i>
+            </a></li>
+        </ul>
     </div>
+
+
 
     <footer class="page-foot">
         <p class="foot-text">Made by Alan Perez &#9835;</p>
     </footer>
-
 </body>
 
 </html>

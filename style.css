@@ -1,56 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
-*{
-    padding:0;
-    margin:0;
+
+* {
+    padding: 0;
+    margin: 0;
 }
-body{
+
+body {
     background: antiquewhite;
-    height:100
+    height: 100
 }
-li{
-    font-size:1.25rem;
+
+li {
+    font-size: 1.25rem;
 }
-#AlanImg{
+
+#AlanImg {
     border-radius: 50%;
     border: 1.25px solid purple;
     width: 150px;
     height: 150px;
 }
-h1,h2,li{
-    font-family: 'Old Standard TT', serif;  
+
+h1,
+h2,
+li {
+    font-family: 'Old Standard TT', serif;
 }
 
-p{
-    font-family: 'Old Standard TT', serif;  
+p {
+    font-family: 'Old Standard TT', serif;
     font-size: large;
 }
 
-.landing{
-    display:flex;
-    align-items:center;
+.landing {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    gap:3rem;
-    padding-top:6rem;
+    gap: 3rem;
+    padding-top: 6rem;
 }
 
-.border-landing{
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 3em;
-    background-color: #510002
-
-}
-.hero-text{
-    max-width:750px;
-    font-size:1.5rem;
+.hero-text {
+    max-width: 750px;
+    font-size: 1.5rem;
     font-weight: 400;
-    color: white;
 }
+
 .aboutH1 {
     text-align: center;
 }
 
-#logoschool{
+#logoschool {
     width: 300px;
     height: 300px;
 }
@@ -58,123 +58,137 @@ p{
 nav {
     background-color: black;
     padding: 10px;
-  }
-  
+}
+
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
-  }
-nav li{
+}
+
+nav li {
     color: white;
-  }
+}
+
 nav a {
     color: white;
     text-decoration: none;
     padding: 10px;
     display: block;
-  }
+}
 
-  nav a:hover {
+nav a:hover {
     background-color: grey;
-  }
+}
 
-  .hero-section{
-    display:flex;
+.hero-section {
+    display: flex;
     justify-content: center;
-    align-items:center;
-    flex-direction:row-reverse;
-    gap:3rem;
-    padding:2rem;
-  }
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    padding: 2rem;
+}
 
 
-#tabs{
+#tabs {
     width: 250px;
     height: 250px;
 }
 
-#stimi{
+#stimi {
     width: 250px;
     height: 200px;
-    background-color: #510002;
+    background-color: rgb(111, 21, 21);
 }
-.mainContent{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap:3rem;
-    padding-top:6rem;
+    gap: 3rem;
+    padding-top: 6rem;
 
 }
-.interests{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+
+.interests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 
 }
 
-.buttons{
-    display:flex;
-    gap:1rem;
+.buttons {
+    display: flex;
+    gap: 1rem;
 }
-.qual-link{
+
+.qual-link {
     text-decoration: none;
-    color:white;
+    color:
+        white;
 }
-.tech-link{
-    text-decoration:none;
-    color:white;
+
+.tech-link {
+    text-decoration: none;
+    color: white;
 }
-button{
-    padding:1rem;
-    background:black;
-    color:white;
+
+button {
+    padding: 1rem;
+    background: black;
+    color: white;
     border-radius: 10px;
 }
-.content-wrapper{
-    padding-top:5rem;
-    padding-bottom:5rem;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    gap:1.5rem;
-}
-.tech-title{
-    font-size:1.5em;
-    padding-bottom:2rem;
-}
-.tech-wrapper{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    gap:5rem;
-}
-.tech-item{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    gap:1.25rem;
-    max-width:900px;
-}
-.tech-desc{
-    display:flex;
-    gap:1.5rem;
-    
-    justify-content:center;
-    flex-direction:row-reverse;
+
+.content-wrapper {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
-.serves-wrapper{
+.tech-title {
+    font-size: 1.5em;
+    padding-bottom: 2rem;
+}
+
+.tech-wrapper {
     display: flex;
-    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.tech-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 900px;
+}
+
+
+.tech-desc {
+    display: flex;
+    gap: 1.5rem;
+
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.serves-wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .proj-wrapper {
@@ -187,79 +201,25 @@ button{
     justify-content: center;
 }
 
-.page-foot{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding-top: 25px;
+.page-foot {
+    display: none
 }
 
-/* toggle css; */
-.switch {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .switch:hover+div {
-    color: blue;
-  }
-  
-  .switch-input {
+.social-container {
+    display: none;
+}
+#qual-logo{
+    display:none;
+}
+#dev-img{
+    margin-bottom: 2rem;
+    box-shadow: 7px 9px 13px 0px rgb(0 0 0 / 75%);
+}
+.my-container{
     display: none;
   }
   
-  .switch-label {
-    display: block;
-    width: 50px;
-    height: 25px;
-    text-indent: -150%;
-    clip: rect(0 0 0 0);
-    color: transparent;
-    user-select: none;
-  }
-  
-  .switch-label::before,
-  .switch-label::after {
-    content: "";
-    display: block;
-    position: absolute;
-    cursor: pointer;
-  }
-  
-  .switch-label::before {
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: hsl(230, 22%, 74%);
-    border-radius: 9999em;
-    transition: all 0.25s ease;
-  }
-  
-  .switch-label::after {
-    top: 10%;
-    left: 5%;
-    right: 55%;
-    bottom: 10%;
-    border-radius: 10000px;
-    background: black;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
-    transition: all 0.25s ease;
-  }
-  
-  .switch-input:checked+.switch-label::before {
-    /* active color */
-    background: hsl(230, 22%, 74%);
-  }
-  
-  .switch-input:checked+.switch-label:hover::before {
-    background: linear-gradient(to right, hsl(77, 75%, 77%), hsl(146, 68%, 55%));
-  }
-  
-  .switch-input:checked+.switch-label::after {
-    /* active switch position */
-    left: 55%;
-    right: 5%;
+
+  #dev-img{
+    display:none
   }
